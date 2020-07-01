@@ -305,9 +305,33 @@
        
        #footer {
            padding: 70px 0px;
-           background-color: rgb(233, 224, 224);
+           background-color: #f1f1f1;
        }
        
-       .footer-icon {
-           font-size: 20px;
+       #footer-div {
+           width: 100%;
+           text-align: center;
+           font-size: larger;
+       }
+       
+       .footer-p {
+           margin-bottom: 15px;
+           text-decoration: none;
+       }
+       
+       footer div p a {
+           text-decoration: none;
+           opacity: 0.75;
+       }
+       
+       footer div p a:hover {
+           color: red;
+       }
+       
+       #footer-icon {
+           font-size: 25px;
+       }
+       
+       #footer-icon:hover {
+           opacity: 0.6;
        }
